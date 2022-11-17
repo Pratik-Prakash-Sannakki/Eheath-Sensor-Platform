@@ -1,0 +1,10 @@
+/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server/CMakeFiles/debug_server.dir
+/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client/CMakeFiles/telemetry_client.dir
+/home/root_linux/Documents/websocketpp-master/Build/examples/print_server/CMakeFiles/print_server.dir
+/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client/CMakeFiles/testee_client.dir
+/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both/CMakeFiles/echo_server_both.dir
+/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server/CMakeFiles/telemetry_server.dir
+/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server/CMakeFiles/echo_server.dir
+/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client/CMakeFiles/utility_client.dir
+/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client/CMakeFiles/sip_client.dir
+/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls/CMakeFiles/echo_server_tls.dir

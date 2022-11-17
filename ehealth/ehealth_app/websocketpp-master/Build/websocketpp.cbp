@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="websocketpp" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\websocketpp\;CMake Files\examples\;CMake Files\examples\echo_server_tls\;CMake Files\examples\echo_server\;CMake Files\examples\telemetry_server\;CMake Files\examples\echo_server_both\;CMake Files\examples\testee_client\;CMake Files\examples\sip_client\;CMake Files\examples\print_server\;CMake Files\examples\utility_client\;CMake Files\examples\debug_server\;CMake Files\examples\telemetry_client\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="echo_server_tls">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/echo_server_tls" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/echo_server_tls" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls/Makefile&quot;  VERBOSE=1 echo_server_tls" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="echo_server_tls/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/echo_server_tls" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/echo_server_tls" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls/Makefile&quot;  VERBOSE=1 echo_server_tls/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="echo_server">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/echo_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/echo_server" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server/Makefile&quot;  VERBOSE=1 echo_server" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="echo_server/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/echo_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/echo_server" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server/Makefile&quot;  VERBOSE=1 echo_server/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="telemetry_server">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/telemetry_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/telemetry_server" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server/Makefile&quot;  VERBOSE=1 telemetry_server" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="telemetry_server/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/telemetry_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/telemetry_server" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server/Makefile&quot;  VERBOSE=1 telemetry_server/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="echo_server_both">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/echo_server_both" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/echo_server_both" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both/Makefile&quot;  VERBOSE=1 echo_server_both" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="echo_server_both/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/echo_server_both" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/echo_server_both" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both/Makefile&quot;  VERBOSE=1 echo_server_both/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testee_client">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/testee_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/testee_client" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client/Makefile&quot;  VERBOSE=1 testee_client" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testee_client/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/testee_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/testee_client" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client/Makefile&quot;  VERBOSE=1 testee_client/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sip_client">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/sip_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/sip_client" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client/Makefile&quot;  VERBOSE=1 sip_client" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sip_client/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/sip_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/sip_client" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client/Makefile&quot;  VERBOSE=1 sip_client/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="print_server">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/print_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/print_server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/print_server" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/print_server/Makefile&quot;  VERBOSE=1 print_server" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/print_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/print_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/print_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="print_server/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/print_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/print_server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/print_server" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/print_server/Makefile&quot;  VERBOSE=1 print_server/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/print_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/print_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/print_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="utility_client">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/utility_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/utility_client" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client/Makefile&quot;  VERBOSE=1 utility_client" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="utility_client/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/utility_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/utility_client" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client/Makefile&quot;  VERBOSE=1 utility_client/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="debug_server">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/debug_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/debug_server" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server/Makefile&quot;  VERBOSE=1 debug_server" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="debug_server/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/debug_server" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/debug_server" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server/Makefile&quot;  VERBOSE=1 debug_server/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="telemetry_client">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/telemetry_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/telemetry_client" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client/Makefile&quot;  VERBOSE=1 telemetry_client" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="telemetry_client/fast">
+         <Option output="/home/root_linux/Documents/websocketpp-master/Build/bin/telemetry_client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-D_WEBSOCKETPP_CPP11_STL_" />
+            <Add option="-DNDEBUG" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/examples/telemetry_client" />
+            <Add directory="/home/root_linux/Documents/websocketpp-master/websocketpp" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client/Makefile&quot;  VERBOSE=1 telemetry_client/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/debug_server/debug_server.cpp">
+         <Option target="debug_server"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/echo_server/echo_handler.hpp">
+         <Option target="echo_server"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/echo_server/echo_server.cpp">
+         <Option target="echo_server"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/echo_server_both/echo_server_both.cpp">
+         <Option target="echo_server_both"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/echo_server_tls/echo_server_tls.cpp">
+         <Option target="echo_server_tls"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/print_server/print_server.cpp">
+         <Option target="print_server"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/sip_client/sip_client.cpp">
+         <Option target="sip_client"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/telemetry_client/telemetry_client.cpp">
+         <Option target="telemetry_client"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/telemetry_server/telemetry_server.cpp">
+         <Option target="telemetry_server"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/testee_client/testee_client.cpp">
+         <Option target="testee_client"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/utility_client/utility_client.cpp">
+         <Option target="utility_client"/>
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/websocketpp-config.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/websocketpp-configVersion.cmake.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/cmake/CMakeHelpers.cmake">
+          <Option virtualFolder="CMake Files\cmake\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/websocketpp/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\websocketpp\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/echo_server_tls/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\echo_server_tls\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/echo_server/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\echo_server\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/telemetry_server/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\telemetry_server\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/echo_server_both/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\echo_server_both\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/testee_client/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\testee_client\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/sip_client/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\sip_client\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/print_server/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\print_server\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/utility_client/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\utility_client\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/debug_server/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\debug_server\" />
+      </Unit>
+      <Unit filename="/home/root_linux/Documents/websocketpp-master/examples/telemetry_client/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\examples\telemetry_client\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x   CMakeFiles/telemetry_client.dir/telemetry_client.cpp.o  -o ../../bin/telemetry_client -rdynamic -lboost_system -lboost_thread -lboost_random 

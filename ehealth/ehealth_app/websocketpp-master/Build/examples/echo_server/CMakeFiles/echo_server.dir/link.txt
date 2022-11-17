@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x   CMakeFiles/echo_server.dir/echo_server.cpp.o  -o ../../bin/echo_server -rdynamic -lboost_system -lboost_thread -lboost_random 

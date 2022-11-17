@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_tls",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/echo_server_tls -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/echo_server_tls.dir/echo_server_tls.cpp.o -c ../../../examples/echo_server_tls/echo_server_tls.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/echo_server_tls/echo_server_tls.cpp"
+},
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/echo_server -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/echo_server.dir/echo_server.cpp.o -c ../../../examples/echo_server/echo_server.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/echo_server/echo_server.cpp"
+},
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_server",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/telemetry_server -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/telemetry_server.dir/telemetry_server.cpp.o -c ../../../examples/telemetry_server/telemetry_server.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/telemetry_server/telemetry_server.cpp"
+},
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/echo_server_both",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/echo_server_both -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/echo_server_both.dir/echo_server_both.cpp.o -c ../../../examples/echo_server_both/echo_server_both.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/echo_server_both/echo_server_both.cpp"
+},
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/testee_client",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/testee_client -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/testee_client.dir/testee_client.cpp.o -c ../../../examples/testee_client/testee_client.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/testee_client/testee_client.cpp"
+},
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/sip_client",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/sip_client -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/sip_client.dir/sip_client.cpp.o -c ../../../examples/sip_client/sip_client.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/sip_client/sip_client.cpp"
+},
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/print_server",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/print_server -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/print_server.dir/print_server.cpp.o -c ../../../examples/print_server/print_server.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/print_server/print_server.cpp"
+},
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/utility_client",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/utility_client -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/utility_client.dir/utility_client.cpp.o -c ../../../examples/utility_client/utility_client.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/utility_client/utility_client.cpp"
+},
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/debug_server",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/debug_server -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/debug_server.dir/debug_server.cpp.o -c ../../../examples/debug_server/debug_server.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/debug_server/debug_server.cpp"
+},
+{
+  "directory": "/home/root_linux/Documents/websocketpp-master/Build/examples/telemetry_client",
+  "command": "/usr/bin/c++   -DNDEBUG -D_WEBSOCKETPP_CPP11_STL_  -std=c++0x -I../../../examples/telemetry_client -I../../../ -I../../../websocketpp    -Wall -Wcast-align -o CMakeFiles/telemetry_client.dir/telemetry_client.cpp.o -c ../../../examples/telemetry_client/telemetry_client.cpp",
+  "file": "/home/root_linux/Documents/websocketpp-master/examples/telemetry_client/telemetry_client.cpp"
+}
+]

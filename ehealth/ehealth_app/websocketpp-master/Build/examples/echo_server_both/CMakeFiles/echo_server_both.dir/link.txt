@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x   CMakeFiles/echo_server_both.dir/echo_server_both.cpp.o  -o ../../bin/echo_server_both -rdynamic -lboost_system -lboost_thread -lboost_random -lssl -lcrypto 

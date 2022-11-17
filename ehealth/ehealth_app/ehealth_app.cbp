@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ehealth_app" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ehealth_app" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add option="-pthread" />
+					<Add directory="websocketpp-master" />
+					<Add directory="cooking" />
+					<Add directory="bcm2835-1.46" />
+					<Add directory="../../../boost_1_49_0 (3)" />
+				</Compiler>
+				<Linker>
+					<Add option="-pthread" />
+					<Add option="-lboost_system" />
+					<Add library="bcm2835-1.46/src/libbcm2835.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ehealth_app" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="PinChangeInt.h" />
+		<Unit filename="SensorApp.h" />
+		<Unit filename="Sensor_App.cpp" />
+		<Unit filename="arduPi.cpp" />
+		<Unit filename="arduPi.h" />
+		<Unit filename="eHealth.cpp" />
+		<Unit filename="eHealth.h" />
+		<Unit filename="json-forwards.h" />
+		<Unit filename="json.h" />
+		<Unit filename="jsoncpp.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

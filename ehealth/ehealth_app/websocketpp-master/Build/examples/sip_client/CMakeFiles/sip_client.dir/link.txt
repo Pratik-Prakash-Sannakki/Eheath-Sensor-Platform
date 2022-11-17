@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x   CMakeFiles/sip_client.dir/sip_client.cpp.o  -o ../../bin/sip_client -rdynamic -lboost_system -lboost_thread -lboost_random 

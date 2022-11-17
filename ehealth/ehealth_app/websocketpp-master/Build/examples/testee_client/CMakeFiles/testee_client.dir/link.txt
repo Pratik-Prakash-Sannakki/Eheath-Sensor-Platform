@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x   CMakeFiles/testee_client.dir/testee_client.cpp.o  -o ../../bin/testee_client -rdynamic -lboost_system -lboost_thread -lboost_random 
